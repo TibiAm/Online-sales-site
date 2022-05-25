@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produse</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="Myimage/Logo1.png"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Acasa</a></li>
+                        <li><a href="produse.html">Produse</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="">Cont</a></li>
+                    </ul>
+                </nav>
+                <img src="Myimage/cart.png" width="30px" height="30px">
+                <img src="Myimage/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+        <div class="cont">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="Myimage/cont-im.png" width="70%">
+                    </div>
+                    <div class="col">
+                        <div class="form-container">
+                                <div style="display: inline-block;">
+                                    <span onclick="login()">Conectare</span>
+                                    <span onclick="register()">Înregistrare</span>
+                                    <hr id="Indicator">
+                                </div>
+                                <form id="Login">
+                                    <input type="text" placeholder="Nume de utilizator">
+                                    <input type="password" placeholder="Parolă">
+                                    <button type="submit" class="but">Conectează-te</button>
+                                    <a href="">Am uitat parola</a>
+                                </form>
+
+                                <form id="Register">
+                                    <input type="text" placeholder="Nume de utilizator">
+                                    <input type="email" placeholder="E-mail">
+                                    <input type="password" placeholder="Parolă">
+                                    <button type="submit" class="but">Înregistrează-te</button>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="column1">
+                    <h3>Descărcați Aplicația</h3>
+                    <p>Descărcați aplicația pentru Android și ios</p>
+                    <div class="logo">
+                        <a href="#"><img src="Myimage/app-store.png"></a>
+                        <a href="#"><img src="Myimage/play-store.png"></a>
+                    </div>
+                </div>
+                <div class="column2">
+                    <h3>Link-uri utile</h3>
+                    <ul>
+                        <a href="#"><li>Cupoane reducere</li></a>
+                        <a href="#"><li>Blog</li></a>
+                        <a href="#"><li>Politici de returnare</li></a>
+                        <a href="#"><li>Devin-o pertener</li></a>
+                    </ul>
+                </div>
+                <div class="column3">
+                    <h3>Urmăriți-ne</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="nav.js"></script>
+    <script src="cont.js"></script>
+</body>
+
+</html>
